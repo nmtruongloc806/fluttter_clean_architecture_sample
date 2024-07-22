@@ -1,0 +1,37 @@
+name: fluttter_clean_architecture_sample
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State Management
+  get: ^4.6.1
+  
+  # HTTP Client
+  dio: ^5.0.0
+
+  # Local Database
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+  # Utility packages
+  battery_plus: ^6.0.1
+
+  # JSON serialization
+  json_annotation: ^4.6.0
+
+  # Other useful packages
+  provider: ^6.0.5
+  shared_preferences: ^2.0.13
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
